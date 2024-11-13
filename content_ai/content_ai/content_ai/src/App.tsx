@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Generate from "./pages/Generate";
-import Ideas from "./pages/Ideas";
-import Calendar from "./pages/Calendar";
+import Home from "./pages/LandingPage";
+import Generate from "./pages/IdeaGeneratorPage";
+import Ideas from "./pages/IdeasDisplayPage";
+import Calendar from "./pages/ContentCalendarPage";
 
 function App() {
   return (
